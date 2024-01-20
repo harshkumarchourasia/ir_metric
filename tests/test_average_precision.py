@@ -1,6 +1,6 @@
 import unittest
 
-from src.ir_metrices.average_precision import average_precision
+from src.ir_metric.metric import average_precision
 
 # Test cases for the average_precision function
 

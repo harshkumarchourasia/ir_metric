@@ -1,9 +1,0 @@
-pyproject.toml
-src/__init__.py
-src/ir_metrices/__init__.py
-src/ir_metrices/average_precision.py
-src/ir_metrices.egg-info/PKG-INFO
-src/ir_metrices.egg-info/SOURCES.txt
-src/ir_metrices.egg-info/dependency_links.txt
-src/ir_metrices.egg-info/top_level.txt
-tests/test_average_precision.py
