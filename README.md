@@ -16,7 +16,8 @@ pip install ir_metric
 
 To use ir_metrics, import the metric module and call the desired metric function. Here's a quick example of computing the average precision:
 
-python
+
+```
 from ir_metric import metric
 
 # Example data
@@ -27,7 +28,7 @@ predicted_ranking = [5, 3, 1]
 result = metric.average_precision(actual_ranking, predicted_ranking, k=2)
 
 print(result)  # Output: 0.25
-
+```
 
 ## Available Metrics
 
