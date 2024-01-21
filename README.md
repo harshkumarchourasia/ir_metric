@@ -25,7 +25,7 @@ actual_ranking = [1, 2, 3]
 predicted_ranking = [5, 3, 1]
 
 # Compute average precision at k=2
-result = metric.average_precision(actual_ranking, predicted_ranking, k=2)
+result = metric.average_precision_at_k(actual_ranking, predicted_ranking, k=2)
 
 print(result)  # Output: 0.25
 ```
@@ -34,10 +34,9 @@ print(result)  # Output: 0.25
 
 Currently, ir_metrics supports the following metrics:
 
-- Average Precision (average_precision)
+- Average Precision (average_precision_at_k)
 - Precision at k (precision_at_k)
 - Recall at k (recall_at_k)
-- F1 Score at k (f1_score_at_k)
 
 
 ## Contributions
