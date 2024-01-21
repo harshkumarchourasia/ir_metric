@@ -8,9 +8,9 @@ ir_metrics is a Python package designed to facilitate information retrieval (IR)
 
 Install the package using pip:
 
-`
+```
 pip install ir_metric
-`
+```
 
 ## Quick Start
 
@@ -38,25 +38,11 @@ Currently, ir_metrics supports the following metrics:
 - Recall at k (recall_at_k)
 - F1 Score at k (f1_score_at_k)
 
-## Documentation
-
-For detailed information on each metric and its parameters, refer to the official documentation: [link to documentation]
 
 ## Contributions
 
-Contributions and bug reports are welcome! Feel free to open issues or submit pull requests on the GitHub repository: [link to GitHub repository]
+Contributions and bug reports are welcome! Feel free to open issues or submit pull requests on the GitHub repository: [https://github.com/harshkumarchourasia/ir_metric]
 
 ## License
 
 This project is licensed under the MIT License.
-
-
-**Key formatting changes:**
-
-- **Consistent indentation:** Using 4 spaces for code blocks and 2 spaces for text within lists.
-- **Code blocks:** Enclosed in triple backticks (`) for proper Markdown rendering.
-- **Headers:** Using single hash symbols (#) for top-level headers and double hash symbols (##) for second-level headers.
-- **Links:** Placeholder link descriptions replaced with actual URLs (if available).
-- **Whitespace:** Added appropriate spacing around code blocks and headers for readability.
-
-Remember to update the placeholder links with the actual documentation and GitHub repository URLs.
