@@ -1,4 +1,4 @@
-# ir_metrics
+# ir_metric
 
 ## Overview
 
